@@ -8,7 +8,8 @@
     "http": "0.0.0",
     "mongodb": "^2.1.16",
     "url": "^0.11.0",
-    "valid-url": "^1.0.9"
+    "valid-url": "^1.0.9",
+    "npm":"^2.15.0"
   },
   "devDependencies": {},
   "scripts": {
