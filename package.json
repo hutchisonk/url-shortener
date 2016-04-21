@@ -5,8 +5,9 @@
   "main": "node server.js",
   "dependencies": {
     "express": "^4.13.4",
-    "http": "^0.0.0",
+    "http": "0.0.0",
     "mongodb": "^2.1.16",
+    "url": "^0.11.0",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {},
@@ -17,6 +18,6 @@
   "author": "",
   "license": "ISC",
   "engine": {
-	"node":"4.4.2"
+    "node": "4.4.2"
   }
 }
