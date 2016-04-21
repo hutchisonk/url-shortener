@@ -57,7 +57,7 @@ module.exports = function (app, db) {
     }//handleShortUrl function
 
     function handleLongURL(res, longURL) {
-      var newLinkPref = process.env.APP_URL || 'https://dry-dusk-96175.herokuapp.com';
+      var newLinkPref = process.env.APP_URL || 'https://dry-dusk-96175.herokuapp.com/';
       var shortAndLongofit;
       if (!valid.isUri(longURL)){
         res.send(longURL+" is not a valid address. Please enter a proper url.");
