@@ -1,0 +1,22 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "A URL-shortener microservice",
+  "main": "node server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "http": "^0.0.0",
+    "mongodb": "^2.1.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engine": {
+	"node":"4.4.2"
+  }
+}
