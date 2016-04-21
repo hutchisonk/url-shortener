@@ -7,7 +7,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 //mongo.MongoClient.connect(process.env.MONGOLAB_URI || 'mongodb://localhost:27017/url-shortener', function(err, db) {
-mongo.connect('mongodb://localhost:27017/url-shortener', function (err, db) {
+mongo.connect(process.env.MONGOLAB_URI ||'mongodb://localhost:27017/url-shortener', function (err, db) {
 
       if (err) {
           throw new Error('Database failed to connect!');
